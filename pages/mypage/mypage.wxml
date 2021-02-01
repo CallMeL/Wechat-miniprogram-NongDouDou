@@ -1,0 +1,47 @@
+<!--pages/mypage/mypage.wxml-->
+<!-- 头像区 -->
+<!--  style="background-image: url('/images/moon.png'); background-size: 100% 120%;" -->
+<view class='personalInf'>
+    <view class='deco'>
+      <open-data class='ava' type="userAvatarUrl" default-avatar="/images/ava.jpeg"></open-data>
+    </view>
+ 
+    <open-data class='nn' type="userNickName" default-text="用户名称"></open-data>
+
+  </view>
+<!-- 列表 -->
+  <mp-cells >
+            <mp-cell link hover value="信息设置" footer=">" bindtap="test">
+                <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="我的订单" footer=">" bindtap="test">
+                <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="我领养的植物" footer=">" bindtap="test">
+                <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+  
+ </mp-cells>
+<!-- 分割线 hr -->
+<view class="hr"></view>
+<mp-cells >
+
+            <mp-cell link hover value="联系我们" footer=">" bindtap="test">
+                <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+            <mp-cell link hover value="意见反馈" footer=">" bindtap="test">
+                <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+            </mp-cell>
+  
+ </mp-cells>
+<!-- 分割线 hr -->
+<view class="hr"></view>
+    <mp-cells >
+
+    <mp-cell link hover value="设置" footer=">" bindtap="test">
+        <image slot="title" src="/images/home.png" style="margin-right: 10px;vertical-align: middle;width:20px; height: 20px;"></image>
+    </mp-cell>
+ 
+</mp-cells>
+
+

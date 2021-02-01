@@ -1,0 +1,50 @@
+/* pages/load/load.wxss */
+.authorButtonView{
+  width: 80%;
+  height: 100rpx;
+  margin-top: 350rpx;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 40%;
+
+
+}
+.authorBtn{
+  width: 70%;
+  height: 80rpx;
+  background-color: #00B269;
+  border-radius: 10rpx;
+  align-content: center;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  
+  
+}
+.note{
+  color: gray;
+  
+  align-content: center;
+  text-align: center;
+  font-size: 14;
+  margin-top: 10rpx;
+
+}
+.med{
+  color: gray;
+  font-weight: bolder;
+  align-content: center;
+  text-align: center;
+  font-size: 14;
+  margin-top: 30rpx;
+}
+.img{
+  
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 200rpx;
+  align-content: center;
+  margin-bottom: 0%;
+}

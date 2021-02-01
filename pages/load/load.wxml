@@ -1,0 +1,15 @@
+<!--pages/load/load.wxml-->
+
+
+<!-- 需要使用 button 来授权登录 -->
+<view wx:if="{{canIUse}}" class="authorButtonView">
+  <button class="authorBtn" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+  <view class="med">———————— · ————————</view>
+  <view class="note">
+  <text>欢迎使用扶贫小程序，本项目*****（介绍），需要使用您的公开信息，包括微信昵称，头像等</text>
+  </view>
+</view>
+<view wx:else>请升级微信版本</view>
+<view >
+  <image class="img"  src="/images/load_icon.png "></image>
+</view>
