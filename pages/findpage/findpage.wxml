@@ -1,2 +1,54 @@
 <!--pages/mypage/mypage.wxml-->
-<text>pages/all/all.wxml</text>
+
+<!-- <view>
+  <view class="card" bindtap="jumpToGoods"></view>
+</view> -->
+<view class="bigBackgrnd0">
+  <view class="cards" bindtap="jumpToTree">
+  
+  <view class="cardText1">特别活动</view>
+  <view class="cardText2">来领养一颗属于自己的果树</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>
+
+<view class="bigBackgrnd1">
+  <view class="cards" bindtap="jumpToGoods">
+  
+  <view class="cardText1">第一弹</view>
+  <view class="cardText2">老干妈不香了？来瓶橄榄双椒酱吧！</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>
+
+<view class="bigBackgrnd2">
+  <view class="cards" bindtap="jumpToGoods">
+  <view class="cardText1">第二弹</view>
+  <view class="cardText2">想把我的秘“蜜”说给你听</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>
+
+<view class="bigBackgrnd2">
+  <view class="cards" bindtap="jumpToGoods">
+  <view class="cardText1">第二弹</view>
+  <view class="cardText2">想把我的秘“蜜”说给你听</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>
+
+<view class="bigBackgrnd2">
+  <view class="cards" bindtap="jumpToGoods">
+  <view class="cardText1">第二弹</view>
+  <view class="cardText2">想把我的秘“蜜”说给你听</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>
+
+<view class="bigBackgrnd2">
+  <view class="cards" bindtap="jumpToGoods">
+  <view class="cardText1">第二弹</view>
+  <view class="cardText2">想把我的秘“蜜”说给你听</view>
+  <view class="cardText2">活动日期：</view>
+</view>
+</view>

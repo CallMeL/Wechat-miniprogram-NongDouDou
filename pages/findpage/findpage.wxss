@@ -1,1 +1,74 @@
 /* pages/mypage/mypage.wxss */
+.card{
+  background-color: rgb(199, 193, 193);
+  height: 400rpx;
+  margin:20rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  box-shadow:0 6rpx 10rpx 2rpx #ffb12a99;/*for Android*/
+  -webkit-box-shadow:0px 3px 5px 1px #ffb12a99;/*for IOS   https://www.jianshu.com/p/1fee36d80db9*/
+}
+.bigBackgrnd0{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+  background-image: url(http://sinacloud.net/test-chen99/tree.PNG?KID=sina,18ofomgh5ZvaUq7Zpl5s&Expires=1612432726&ssig=Re6SsjUnBJ);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.bigBackgrnd1{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+  background-image: url(http://sinacloud.net/test-chen99/laoganma.png?KID=sina,18ofomgh5ZvaUq7Zpl5s&Expires=1612431685&ssig=kxAjfDqfGK);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.bigBackgrnd2{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+  background-image: url(http://sinacloud.net/test-chen99/%E6%88%AA%E5%B1%8F2021-02-04%20%E4%B8%8B%E5%8D%884.49.06.png?KID=sina,18ofomgh5ZvaUq7Zpl5s&Expires=1612432456&ssig=zq8JYjS1hT);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.cards{
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+  height: 360rpx;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e4cbba28;
+  margin-bottom: 10rpx;
+  box-shadow:0 6rpx 10rpx 2rpx #cfc2ab99;/*for Android*/
+  -webkit-box-shadow:0px 3px 5px 1px #cfc2ab99;/*for IOS   https://www.jianshu.com/p/1fee36d80db9*/
+}
+
+
+.cardText {
+
+ 
+  margin-top:-100rpx; 
+}
+.cardText1 {
+  color: rgb(212, 22, 22);
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 20rpx 0 ;
+  font-size: 34rpx;
+  
+}
+.cardText2 {
+  color:white;
+  font-size: 100rpx;
+  font-weight: bolder;
+  padding: 20rpx 0 ;
+  font-size: 34rpx;
+}

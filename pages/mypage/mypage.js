@@ -6,7 +6,7 @@ Page({
    */
 
   data: {
-    selected: 3
+    selected: 2
   },
 
   /**

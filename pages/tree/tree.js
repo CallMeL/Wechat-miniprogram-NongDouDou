@@ -1,23 +1,13 @@
-// pages/mypage/mypage.js
+// pages/tree/tree.js
 Page({
 
   /**
    * 页面的初始数据
    */
-
   data: {
-    selected: 2
+
   },
-  jumpToGoods: function(e) {
-    wx.navigateTo({
-      url: '/pages/goods/goods',
-    })
-  },
-  jumpToTree: function(e) {
-    wx.navigateTo({
-      url: '/pages/tree/tree',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */
@@ -35,19 +25,9 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function(e) {
+  onShow: function () {
 
-    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
-    
-            this.getTabBar().setData({
-    
-                            selected: 1
-    
-                        })
-    
-            }
-    
-    },
+  },
 
   /**
    * 生命周期函数--监听页面隐藏
