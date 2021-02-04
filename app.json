@@ -1,16 +1,17 @@
 {
   "pages":[
-
-    "pages/shop/shop",
-   
+    "pages/findpage/findpage",
+    "pages/home/home",
+   "pages/goods/goods",
     "pages/mypage/mypage",
     "pages/load/load",
-    "pages/findpage/findpage",
+    "pages/tree/tree",
     
-    "pages/home/home",
+    
+    
+    "pages/detail/detail",
+    "pages/index/index"
 
-    "pages/index/index",
-    "pages/logs/logs"
     
     
   
@@ -46,12 +47,6 @@
       "selectedIconPath": "images/home.png",
       "text":"主页"
       
-     },
-     {
-      "pagePath":"pages/shop/shop",
-      "iconPath": "images/shopping.png",
-      "selectedIconPath": "images/shopping.png",
-      "text":"购物 "
      },
      {
       "pagePath":"pages/findpage/findpage",

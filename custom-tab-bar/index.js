@@ -8,12 +8,7 @@ Component({
       iconPath: "/images/home.png",
       selectedIconPath: "/images/home.png",
       text: "主页"
-    },  {
-      pagePath: "/pages/shop/shop",
-      iconPath: "/images/shopping.png",
-      selectedIconPath: "/images/shopping.png",
-      text: "购物"
-    }, 
+    },  
     {
       pagePath: "/pages/findpage/findpage",
       iconPath: "/images/collect.png",
