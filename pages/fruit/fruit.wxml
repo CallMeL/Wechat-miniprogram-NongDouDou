@@ -1,0 +1,43 @@
+<!--pages/fruit/fruit.wxml-->
+<view class="fixed-box">
+   点击购买
+</view>
+
+<view class="contain">
+<!-- 主页 -->
+<view class="main">
+<!-- 介绍 -->
+<view class="intro">
+  <image src="/images/apple.jpg"></image>
+</view>
+
+<view class="title-text">
+    {{title}}
+</view>
+<view class="detail-text">
+{{detailtext}}
+</view>
+<!-- 水果格子 -->
+<view class="like-list" >
+    <navigator class="like-item" wx:for="{{searchListArr}}" data-id="{{item.id}}" url="/pages/detailFood/detailFood?id={{item.id}}">
+            <image src="{{item.imgUrl}}"></image>
+            <view class="right-content">
+                <rich-text>{{item.title}}</rich-text>
+                <view>{{item. material}}</view>
+                <!-- <view>{{item.author}}</view>
+                <text>收藏{{item.save}}</text><text> 点赞{{item.like}}</text> -->
+            </view>
+        </navigator>
+    </view>
+</view>
+ 
+
+
+
+
+</view>
+
+
+
+
+

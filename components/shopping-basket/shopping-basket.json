@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "tty-stepper": "../num-choose/num-choose",
-    "tty-icon": "../tty-ui/icon/index"
-  }
-}

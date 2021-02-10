@@ -1,14 +1,18 @@
 {
   "pages":[
     "pages/findpage/findpage",
+    "pages/fruit/fruit",
+   
+   
+   
     "pages/home/home",
-   "pages/goods/goods",
+   
     "pages/mypage/mypage",
     "pages/load/load",
     "pages/tree/tree",
     
-    
-    
+   
+    "pages/setUser/setUser",
     "pages/detail/detail",
     "pages/index/index"
 

@@ -3,52 +3,23 @@
 <!-- <view>
   <view class="card" bindtap="jumpToGoods"></view>
 </view> -->
-<view class="bigBackgrnd0">
-  <view class="cards" bindtap="jumpToTree">
+<!-- TODO: 
+        1.做好用户信息的填写、
+        6.果树图标设计
+        2.果树领养界面（领养方式，在小程序内申请领养，然后转账给小助手）
+        3.水果页面
+        4.固定产品第几弹的页面
+        5.bar的图标更改
+ -->
+ 
+ <view class="cardlist"> 
   
-  <view class="cardText1">特别活动</view>
-  <view class="cardText2">来领养一颗属于自己的果树</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>
+    <view class="cards" wx:for="{{list}}" data-id="{{item.id}}" bindtap="jumpToTree"> 
+    
+          <view class="cardText1">{{item.title}}</view>
+          <view class="cardText2">{{item.intro}}</view>
+          <view class="cardText2">{{item.data}}</view>          
+    </view>
+ </view>
 
-<view class="bigBackgrnd1">
-  <view class="cards" bindtap="jumpToGoods">
-  
-  <view class="cardText1">第一弹</view>
-  <view class="cardText2">老干妈不香了？来瓶橄榄双椒酱吧！</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>
 
-<view class="bigBackgrnd2">
-  <view class="cards" bindtap="jumpToGoods">
-  <view class="cardText1">第二弹</view>
-  <view class="cardText2">想把我的秘“蜜”说给你听</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>
-
-<view class="bigBackgrnd2">
-  <view class="cards" bindtap="jumpToGoods">
-  <view class="cardText1">第二弹</view>
-  <view class="cardText2">想把我的秘“蜜”说给你听</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>
-
-<view class="bigBackgrnd2">
-  <view class="cards" bindtap="jumpToGoods">
-  <view class="cardText1">第二弹</view>
-  <view class="cardText2">想把我的秘“蜜”说给你听</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>
-
-<view class="bigBackgrnd2">
-  <view class="cards" bindtap="jumpToGoods">
-  <view class="cardText1">第二弹</view>
-  <view class="cardText2">想把我的秘“蜜”说给你听</view>
-  <view class="cardText2">活动日期：</view>
-</view>
-</view>

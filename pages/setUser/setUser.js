@@ -1,4 +1,4 @@
-// pages/goods/goods.js
+// pages/setUser/setUser.js
 Page({
 
   /**
@@ -7,11 +7,7 @@ Page({
   data: {
 
   },
-  jumpTodetail: function(e) {
-    wx.navigateTo({
-      url: '/pages/detail/detail',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

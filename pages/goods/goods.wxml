@@ -1,5 +1,0 @@
-<!--pages/goods/goods.wxml-->
-<view>
-  <view class="card" bindtap="jumpTodetail"></view>
-
-</view>

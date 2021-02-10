@@ -15,10 +15,10 @@ Page({
   onLoad: function (options) {
 
   },
-test:function(){
-  wx.reLaunch({
-    url: '/pages/home/home',
-  })
+  jumpToSetUserImfor:function(){
+ wx.navigateTo({
+   url: '/pages/setUser/setUser',
+ })
 },
   /**
    * 生命周期函数--监听页面初次渲染完成
