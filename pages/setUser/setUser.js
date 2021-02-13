@@ -1,12 +1,11 @@
-// pages/mypage/mypage.js
+// pages/setUser/setUser.js
 Page({
 
   /**
    * 页面的初始数据
    */
-
   data: {
-    selected: 2
+
   },
 
   /**
@@ -15,11 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  jumpToSetUserImfor:function(){
- wx.navigateTo({
-   url: '/pages/setUser/setUser',
- })
-},
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -30,19 +25,9 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function(e) {
+  onShow: function () {
 
-    if (typeof this.getTabBar === 'function' && this.getTabBar()) {
-    
-            this.getTabBar().setData({
-    
-                            selected: 3
-    
-                        })
-    
-            }
-    
-    },
+  },
 
   /**
    * 生命周期函数--监听页面隐藏

@@ -1,1 +1,92 @@
 /* pages/mypage/mypage.wxss */
+.cardlist{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-bottom: 180rpx;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position:fixed;
+  background-size:100% 100%;
+  z-index: -1;
+  }
+.card{
+  height: 400rpx;
+  margin:20rpx;
+  border-radius: 30rpx;
+  overflow: hidden;
+  box-shadow:0 6rpx 10rpx 2rpx #ffb12a99;/*for Android*/
+  -webkit-box-shadow:0px 3px 5px 1px #ffb12a99;/*for IOS   https://www.jianshu.com/p/1fee36d80db9*/
+}
+.bigBackgrnd0{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+  background-image: url(https://mmbiz.qpic.cn/mmbiz_png/4XGiaQKIP0YudySf7E2fLn1iacOeDPgnUZEia0LicGt087dZfvhcJLK95qUNz9VwQlhX2YuzrxFAxInKz5cBROEwMg/0?wx_fmt=png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.bigBackgrnd1{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+  background-image: url(http://sinacloud.net/test-chen99/laoganma.png?KID=sina,18ofomgh5ZvaUq7Zpl5s&Expires=1612841515&ssig=FaU0cpYmPc);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.bigBackgrnd2{
+  margin-left: 3%;
+  margin-right: 3%;
+  
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 30rpx;
+}
+.cards{
+  
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 100%;
+  height: 360rpx;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e4cbba28;
+  margin-bottom: 10rpx;
+  box-shadow:0 6rpx 10rpx 2rpx #cfc2ab99;/*for Android*/
+  -webkit-box-shadow:0px 3px 5px 1px #cfc2ab99;/*for IOS   https://www.jianshu.com/p/1fee36d80db9*/
+  
+}
+
+
+.cardText {
+
+ 
+  margin-top:-100rpx; 
+}
+.cardText1 {
+  color: rgb(212, 22, 22);
+  font-size: xx-large;
+  font-weight: bolder;
+  padding: 20rpx 0 ;
+  font-size: 34rpx;
+  
+}
+.cardText2 {
+  color:white;
+  font-size: 100rpx;
+  font-weight: bolder;
+  padding: 20rpx 0 ;
+  font-size: 34rpx;
+}

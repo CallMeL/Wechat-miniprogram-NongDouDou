@@ -6,9 +6,60 @@ Page({
    */
 
   data: {
-    selected: 2
+    selected: 2,
+    list: [
+      {
+          id: 1,
+          imgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/3j77EspfUMuJtUhuYQNTPNIFWOdicSxySmtgQQvPjpMNGzUPzCibSeGGuoKb9NOwO4B77icsImZZqrrlctFy7hiaNQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+          title: '特别活动',
+          intro: '来领养一颗属于自己的果树',
+          data: '活动日期：'
+      },
+      {
+        id: 1,
+        imgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/3j77EspfUMuJtUhuYQNTPNIFWOdicSxySmtgQQvPjpMNGzUPzCibSeGGuoKb9NOwO4B77icsImZZqrrlctFy7hiaNQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+        title: '第零弹',
+        intro: '多种好吃不贵原生态水果',
+        data: '活动日期：'
+      },
+      {
+        id: 1,
+        imgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/3j77EspfUMuJtUhuYQNTPNIFWOdicSxySmtgQQvPjpMNGzUPzCibSeGGuoKb9NOwO4B77icsImZZqrrlctFy7hiaNQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+        title: '第零弹',
+        intro: '多种好吃不贵原生态水果',
+        data: '活动日期：'
+      },
+      {
+        id: 1,
+        imgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/3j77EspfUMuJtUhuYQNTPNIFWOdicSxySmtgQQvPjpMNGzUPzCibSeGGuoKb9NOwO4B77icsImZZqrrlctFy7hiaNQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+        title: '第零弹',
+        intro: '多种好吃不贵原生态水果',
+        data: '活动日期：'
+      },
+      {
+        id: 1,
+        imgUrl: 'https://mmbiz.qpic.cn/mmbiz_jpg/3j77EspfUMuJtUhuYQNTPNIFWOdicSxySmtgQQvPjpMNGzUPzCibSeGGuoKb9NOwO4B77icsImZZqrrlctFy7hiaNQ/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1',
+        title: '第零弹',
+        intro: '多种好吃不贵原生态水果',
+        data: '活动日期：'
+    }
+  ],
   },
-
+  jumpToDetail: function(e) {
+    wx.navigateTo({
+      url: '/pages/detail/detail',
+    })
+  },
+  jumpToTree: function(e) {
+    wx.navigateTo({
+      url: '/pages/tree/tree',
+    })
+  },
+  jumpToFruit: function(e) {
+    wx.navigateTo({
+      url: '/pages/fruit/fruit',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -32,7 +83,7 @@ Page({
     
             this.getTabBar().setData({
     
-                            selected: 2
+                            selected: 1
     
                         })
     

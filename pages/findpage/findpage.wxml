@@ -1,2 +1,25 @@
 <!--pages/mypage/mypage.wxml-->
-<text>pages/all/all.wxml</text>
+
+<!-- <view>
+  <view class="card" bindtap="jumpToGoods"></view>
+</view> -->
+<!-- TODO: 
+        1.做好用户信息的填写、
+        6.果树图标设计
+        2.果树领养界面（领养方式，在小程序内申请领养，然后转账给小助手）
+        3.水果页面
+        4.固定产品第几弹的页面
+        5.bar的图标更改
+ -->
+ 
+ <view class="cardlist"> 
+  
+    <view class="cards" wx:for="{{list}}" data-id="{{item.id}}" bindtap="jumpToTree"> 
+    
+          <view class="cardText1">{{item.title}}</view>
+          <view class="cardText2">{{item.intro}}</view>
+          <view class="cardText2">{{item.data}}</view>          
+    </view>
+ </view>
+
+
